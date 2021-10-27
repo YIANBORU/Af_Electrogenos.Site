@@ -1,3 +1,5 @@
+
+/* Slider */
 .slider h3 {
     text-shadow: -2px -2px 2px #000;
 }
@@ -6,17 +8,69 @@
     text-shadow: -2px -2px 2px #000;
 }
 
-.slider h2 {
+.slider h1, h2 {
     text-shadow: -2px -2px 2px #000;
+    font-family: Impact, Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif; 
 }
-.parallax-container:hover .parallax {
-    -webkit-transform:scale(1.3);
-    transform:scale(1.3);
-    filter: blur(5px);
+
+.slides li {
+	
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
 }
-.parallax-container {
-    overflow:hidden;
+.slides li:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.534);
 }
+
+/*parallax*/
+#tiposCliente .parallax {
+	
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.parallax-container:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.726);
+}
+
+
+#tiposCliente  h5, h2, h4, i {
+	color: #fff;
+	position: relative;
+    font-family: Impact, Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif; 
+}
+#tiposCliente i  {
+	color: #304ffe ;
+	position: relative
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

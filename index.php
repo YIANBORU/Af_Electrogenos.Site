@@ -16,8 +16,9 @@
     <?php
     include "parts/navbar.html";
     include "parts/slider.html";
-    include "parts/section1.html";
-    include "parts/section2.html";
+    include "parts/serviciosindex.html";
+    include "parts/marcas_ventajas.html";
+    include "parts/tiposclienteindex.html";
     include "parts/footer.html";
     ?>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

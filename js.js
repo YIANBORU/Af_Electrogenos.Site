@@ -11,6 +11,7 @@ $(document).ready(function() {
         interval: 5000
     });
 });
+
 // Pause - start slider
 $(document).ready(function() {
     $(".slider").mouseenter(function() {
