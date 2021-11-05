@@ -22,11 +22,32 @@ $(document).ready(function() {
     });
 });
 $(document).ready(function() {
-    $('.carousel').carousel();
-});
-$(document).ready(function() {
     $('.collapsible').collapsible();
 });
 $(document).ready(function() {
     $('.parallax').parallax();
 });
+
+// funcion para que el carousel este en modo autoplay
+$('.carousel').carousel();
+setInterval(function() {
+  $('.carousel').carousel('next');
+}, 3000); // every 3 seconds
+
+$('.carousel').carousel();
+setInterval(function() {
+  $('#clientesC').carousel('next');
+}, 3000); 
+
+$(document).ready(function(){
+    $('.carousel').carousel(
+        {
+            duration: 800
+        }
+    );
+  });
+
+  
+  $(document).ready(function(){
+    $('.modal').modal();
+  });

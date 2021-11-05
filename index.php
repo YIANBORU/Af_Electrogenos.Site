@@ -16,10 +16,12 @@
 
     <?php
     include "parts/navbar.html";
+    include "parts/modalForm.html";
     include "parts/slider.html";
     include "parts/serviciosindex.html";
     include "parts/marcas_ventajas.html";
     include "parts/tiposclienteindex.html";
+    include "parts/nuestrosClientes.html";
     include "parts/footer.html";
    
     ?>
