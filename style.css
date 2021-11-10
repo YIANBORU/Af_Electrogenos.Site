@@ -1,5 +1,5 @@
-
 /* Slider */
+
 .slider h3 {
     text-shadow: -2px -2px 2px #000;
 }
@@ -8,67 +8,63 @@
     text-shadow: -2px -2px 2px #000;
 }
 
-.slider h1, h2 {
+.slider h1,
+h2 {
     text-shadow: -2px -2px 2px #000;
 }
-.slider a:hover{
--webkit-transform:scale(1.3);
-transform:scale(1.3);
+
+.slider a:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 .slides li {
-	
-	text-align: center;
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: relative;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
+
 .slides li:before {
-	content:'';
-	position: absolute;
+    content: '';
+    position: absolute;
     top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0, 0, 0, 0.534);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.534);
 }
+
 
 /*parallax*/
+
 .parallax-container .parallax {
-	
-	text-align: center;
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: relative;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
+
 .parallax-container:before {
-	content:'';
-	position: absolute;
+    content: '';
+    position: absolute;
     top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0, 0, 0, 0.726);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.726);
 }
 
-
-.parallax-container  h5, h2, h4 {
-	color: #fff;
-	position: relative;
-}
-.parallax-container i  {
-	color: #304ffe ;
-	position: relative;
+.parallax-container h5,
+h2,
+h4 {
+    color: #fff;
+    position: relative;
 }
 
-
-
-
-
-
-
-
-
-
+.parallax-container i {
+    color: #304ffe;
+    position: relative;
+}
