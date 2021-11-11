@@ -50,11 +50,6 @@ $(document).ready(function() {
     $('.modal').modal();
 });
 
-// selection
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('select');
-    var instances = M.FormSelect.init(elems, options);
-});
 
 // Or with jQuery
 

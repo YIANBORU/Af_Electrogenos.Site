@@ -44,7 +44,6 @@ h2 {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
 }
 
 .parallax-container:before {

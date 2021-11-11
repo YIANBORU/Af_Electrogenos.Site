@@ -17,7 +17,7 @@
     <?php
     include "parts/navbar.html";
     include "parts/modalForm.html";
-    include "parts/slider.html";
+    include "parts/nosotrosBanner.html";
     include "parts/serviciosindex.html";
     include "parts/marcas_ventajas.html";
     include "parts/tiposclienteindex.html";
