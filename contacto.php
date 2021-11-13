@@ -17,7 +17,7 @@
     <?php
     include "parts/navbar.html";
     include "parts/modalForm.html";
-    include "parts/nosotrosBanner.html";
+    
     include "parts/footer.html";
     
     

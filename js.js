@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('.sidenav').sidenav();
 });
 //slider
-$(document).ready(function() {
+$(document).ready(function () {
     $('.slider').slider({
         indicators: true,
         height: 700,
@@ -11,6 +11,16 @@ $(document).ready(function() {
         interval: 5000
     });
 });
+$(document).ready(function () {
+    $('#sliderS').slider(
+        {
+            height: 300,
+            indicators: false
+        }
+    );
+});
+
+
 
 // Pause - start slider
 $(document).ready(function() {
@@ -21,9 +31,11 @@ $(document).ready(function() {
         $('.slider').slider('start');
     });
 });
+//inicializar collapsible
 $(document).ready(function() {
     $('.collapsible').collapsible();
 });
+//parallax
 $(document).ready(function() {
     $('.parallax').parallax();
 });
@@ -33,23 +45,10 @@ $('.carousel').carousel();
 setInterval(function() {
     $('.carousel').carousel('next');
 }, 3000); // every 3 seconds
-
-$('.carousel').carousel();
-setInterval(function() {
-    $('#clientesC').carousel('next');
-}, 3000);
-
-$(document).ready(function() {
-    $('.carousel').carousel({
-        duration: 800
-    });
-});
-
-
+//modal
 $(document).ready(function() {
     $('.modal').modal();
 });
-
 
 // Or with jQuery
 
